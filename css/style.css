@@ -209,18 +209,21 @@ header .navbar ul li a:hover{
 .box-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    gap: 20px;
 }
 
 .education .box-container .box{
-    width: 7rem;
-    margin: 4rem 1rem;
-    padding-left: 4rem;
+    width: 20rem;
+    height: 15rem;
+    margin: 4rem;
+    padding-left: 5rem;
     border-left: .2rem solid #fff;
     position: relative;
+    flex: 2;
 }
 .education .box-container .box span{
     font-size: 1.3rem;
@@ -340,9 +343,13 @@ header .navbar ul li a:hover{
 
 .top{
     position: fixed;
-    bottom: 7.5rem; right: 2rem;
-    z-index: 100;
-    display: none;
+    bottom: 3rem; 
+    right: 3rem;
+    background-color: #fff4;
+    border-radius: 50%;
+}
+.top:hover{
+    background-color: var(--yellow);
 }
 
 
